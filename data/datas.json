@@ -1,20 +1,86 @@
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 4000;
-const cors = require('cors');
-
-const datas = require("./data/datas.json");
-
-app.use(cors());
-
-app.get('/', (req, res) => {
-  res.send('Server Is running!')
-})
-
-app.get('/datas', (req, res) => {
-  res.send(datas);
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-});
+[
+  {
+    "id": 1,
+    "chefName": "John Doe",
+    "experience": 10,
+    "recipes": 200,
+    "likes": [
+      { "name": "Italian Cuisine", "count": 150 },
+      { "name": "Mexican Cuisine", "count": 75 },
+      { "name": "Asian Fusion", "count": 50 }
+    ],
+    "chefPicture": "https://example.com/john-doe.jpg"
+  },
+  {
+    "id": 2,
+    "chefName": "Jane Smith",
+    "experience": 15,
+    "recipes": 300,
+    "likes": [
+      { "name": "French Cuisine", "count": 200 },
+      { "name": "Japanese Cuisine", "count": 100 },
+      { "name": "Mediterranean Cuisine", "count": 50 }
+    ],
+    "chefPicture": "https://example.com/jane-smith.jpg"
+  },
+  {
+    "id": 3,
+    "chefName": "David Lee",
+    "experience": 12,
+    "recipes": 250,
+    "likes": [
+      { "name": "Korean Cuisine", "count": 180 },
+      { "name": "Thai Cuisine", "count": 90 },
+      { "name": "Mexican Cuisine", "count": 60 }
+    ],
+    "chefPicture": "https://example.com/david-lee.jpg"
+  },
+  {
+    "id": 4,
+    "chefName": "Sara Kim",
+    "experience": 8,
+    "recipes": 150,
+    "likes": [
+      { "name": "Japanese Cuisine", "count": 100 },
+      { "name": "Mediterranean Cuisine", "count": 50 },
+      { "name": "Italian Cuisine", "count": 40 }
+    ],
+    "chefPicture": "https://example.com/sara-kim.jpg"
+  },
+  {
+    "id": 5,
+    "chefName": "Mark Johnson",
+    "experience": 20,
+    "recipes": 500,
+    "likes": [
+      { "name": "French Cuisine", "count": 300 },
+      { "name": "Italian Cuisine", "count": 150 },
+      { "name": "Spanish Cuisine", "count": 50 }
+    ],
+    "chefPicture": "https://example.com/mark-johnson.jpg"
+  },
+  {
+    "id": 6,
+    "chefName": "Linda Davis",
+    "experience": 13,
+    "recipes": 275,
+    "likes": [
+      { "name": "Italian Cuisine", "count": 200 },
+      { "name": "Mediterranean Cuisine", "count": 50 },
+      { "name": "Mexican Cuisine", "count": 25 }
+    ],
+    "chefPicture": "https://example.com/linda-davis.jpg"
+  },
+  {
+    "id": 7,
+    "chefName": "Alex Chen",
+    "experience": 18,
+    "recipes": 400,
+    "likes": [
+      { "name": "Chinese Cuisine", "count": 200 },
+      { "name": "Japanese Cuisine", "count": 150 },
+      { "name": "Korean Cuisine", "count": 50 }
+    ],
+    "chefPicture": "https://example.com/alex-chen.jpg"
+  }
+]
