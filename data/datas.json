@@ -9,7 +9,7 @@
       { "name": "Mexican Cuisine", "count": 75 },
       { "name": "Asian Fusion", "count": 50 }
     ],
-    "chefPicture": "https://example.com/john-doe.jpg"
+    "chefPicture": " https://ibb.co/5jSpcxz"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       { "name": "Japanese Cuisine", "count": 100 },
       { "name": "Mediterranean Cuisine", "count": 50 }
     ],
-    "chefPicture": "https://example.com/jane-smith.jpg"
+    "chefPicture": "https://ibb.co/HzMWFsd"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
       { "name": "Thai Cuisine", "count": 90 },
       { "name": "Mexican Cuisine", "count": 60 }
     ],
-    "chefPicture": "https://example.com/david-lee.jpg"
+    "chefPicture": "https://ibb.co/RB1Ltmr"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
       { "name": "Mediterranean Cuisine", "count": 50 },
       { "name": "Italian Cuisine", "count": 40 }
     ],
-    "chefPicture": "https://example.com/sara-kim.jpg"
+    "chefPicture": "https://ibb.co/hcMXqFt"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
       { "name": "Italian Cuisine", "count": 150 },
       { "name": "Spanish Cuisine", "count": 50 }
     ],
-    "chefPicture": "https://example.com/mark-johnson.jpg"
+    "chefPicture": "https://ibb.co/rsTd3kX"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
       { "name": "Mediterranean Cuisine", "count": 50 },
       { "name": "Mexican Cuisine", "count": 25 }
     ],
-    "chefPicture": "https://example.com/linda-davis.jpg"
+    "chefPicture": "https://ibb.co/L1n1T4"
   },
   {
     "id": 7,
@@ -81,6 +81,6 @@
       { "name": "Japanese Cuisine", "count": 150 },
       { "name": "Korean Cuisine", "count": 50 }
     ],
-    "chefPicture": "https://example.com/alex-chen.jpg"
+    "chefPicture": "https://ibb.co/HzMWFsd"
   }
 ]

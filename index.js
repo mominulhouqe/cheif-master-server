@@ -18,3 +18,19 @@ app.get('/datas', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
+
+
+/* 
+
+ https://ibb.co/5jSpcxz
+
+https://ibb.co/HzMWFsd
+
+https://ibb.co/RB1Ltmr
+
+https://ibb.co/hcMXqFt
+
+https://ibb.co/rsTd3kX
+
+https://ibb.co/L1n1T4B
+*/
