@@ -15,31 +15,35 @@ app.get('/', (req, res) => {
 
 
 
+// main data loading
 app.get('/datas', (req, res) => {
   res.send(datas);
 })
 
-// main data loading
-app.get('/datas/:id', (req,res)=>{
-  const id = parseInt(req.params.id);
-  if(id === 0){
-    res.send(details)
-  }
-})
 
 
 // Details data
-app.get("/details", (req, res) =>{
+app.get("/userdetails", (req, res) =>{
   res.send(details)
 })
 
-app.get("/details/:id", (req, res) => {
+app.get("/userdetails/:id", (req, res) => {
   const id = req.params.id;
   const seletedProfile = details.find((n) => n.id === id);
   res.send(seletedProfile)
 })
 
 
+app.get('/datas/:id', (req,res)=>{
+  const id = parseInt(req.params.id);
+  if(id === 0){
+    res.send(details);
+  }else{
+    const userList = details.filter((n) => parseInt(n.id) === id);
+    console.log(userList);
+    res.send(userList);
+  }
+})
 
 
 
