@@ -10,7 +10,7 @@
         { "name": "Mexican Cuisine", "count": 75 },
         { "name": "Asian Fusion", "count": 50 }
       ],
-      "chefPicture": "https://i.ibb.co/MZpCgnY/chef-2.jpg",
+      "chefPicture": "https://i.ibb.co/r0C4wqh/chef-1.jpg",
       "description": "John Doe is a highly experienced chef with 10 years of experience in the culinary arts. He has created over 200 unique recipes and specializes in Italian, Mexican, and Asian Fusion cuisines.",
       "ingredients": [
         { "name": "Flour", "quantity": "2 cups" },
@@ -35,7 +35,7 @@
         { "name": "American Comfort Food", "count": 75 },
         { "name": "Mediterranean Cuisine", "count": 50 }
       ],
-      "chefPicture": "https://i.ibb.co/bXpzJgS/chef-1.jpg",
+      "chefPicture": "https://i.ibb.co/zPsH0MV/chef-3.jpg",
       "description": "Jane Smith is a passionate chef with 8 years of experience in the culinary arts. She has created over 150 unique recipes and specializes in French, American Comfort Food, and Mediterranean cuisines.",
       "ingredients": [
         { "name": "Garlic", "quantity": "4 cloves" },
@@ -88,7 +88,7 @@
       {"name": "Lemon Tart", "count": 80},
       {"name": "Apple Pie", "count": 20}
     ],
-    "chefPicture": "https://i.ibb.co/pxkx9Cr/chef-6.jpg",
+    "chefPicture": "https://i.ibb.co/Nnb2DwJ/chef-6.jpg",
     "description": "Sara Lee is a master pastry chef with 12 years of experience in the art of baking. She has created over 300 unique recipes and specializes in cakes, tarts, and pies.",
     "ingredients": [
       {"name": "Butter", "quantity": "1 cup"},
@@ -113,7 +113,7 @@
       {"name": "Chiles Rellenos", "count": 50},
       {"name": "Enchiladas Verdes", "count": 20}
     ],
-    "chefPicture": "https://i.ibb.co/LvKJz1f/chef-7.jpg",
+    "chefPicture": "https://i.ibb.co/q5nWRWJ/chef-5.jpg",
     "description": "Pablo Sanchez is a talented chef with 8 years of experience in Mexican cuisine. He has created over 150 unique recipes and specializes in tacos, chiles rellenos, and enchiladas.",
     "ingredients": [
       {"name": "Pork Shoulder", "quantity": "2 lbs"},
@@ -138,7 +138,7 @@
       {"name": "Lemon Tart", "count": 80},
       {"name": "Apple Pie", "count": 20}
     ],
-    "chefPicture": "https://i.ibb.co/pxkx9Cr/chef-6.jpg",
+    "chefPicture": "https://i.ibb.co/zPsH0MV/chef-3.jpg",
     "description": "Sara Lee is a master pastry chef with 12 years of experience in the art of baking. She has created over 300 unique recipes and specializes in cakes, tarts, and pies.",
     "ingredients": [
       {"name": "Butter", "quantity": "1 cup"},
