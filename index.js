@@ -19,18 +19,6 @@ app.get('/datas', (req, res) => {
 
 
 
-// Details data
-// app.get("/userdetails", (req, res) =>{
-//   res.send(details)
-// })
-
-// app.get("/userdetails/:id", (req, res) => {
-//   const id = req.params.id;
-//   const seletedProfile = details.find((n) => n.id === id);
-//   res.send(seletedProfile)
-// })
-
-
 app.get('/datas/:id', (req,res)=>{
   const id = parseInt(req.params.id);
   if(id === 0){
