@@ -9,7 +9,8 @@
       { "name": "Mexican Cuisine", "count": 75 },
       { "name": "Asian Fusion", "count": 50 }
     ],
-    "chefPicture": "https://i.ibb.co/MZpCgnY/chef-2.jpg"
+    "chefPicture": "https://i.ibb.co/MZpCgnY/chef-2.jpg",
+    "description": "John Doe is a highly experienced chef with 10 years of experience in the culinary arts. He has created over 200 unique recipes and specializes in Italian, Mexican, and Asian Fusion cuisines."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       { "name": "Japanese Cuisine", "count": 100 },
       { "name": "Mediterranean Cuisine", "count": 50 }
     ],
-    "chefPicture": "https://i.ibb.co/r0C4wqh/chef-1.jpg"
+    "chefPicture": "https://i.ibb.co/r0C4wqh/chef-1.jpg",
+    "description": "Jane Smith is a highly skilled chef with over 15 years of experience in the culinary world. She has created over 300 unique recipes and specializes in French, Japanese, and Mediterranean cuisines."
   },
   {
     "id": 3,
@@ -33,8 +35,8 @@
       { "name": "Thai Cuisine", "count": 90 },
       { "name": "Mexican Cuisine", "count": 60 }
     ],
-    "chefPicture": "https://i.ibb.co/MZpCgnY/chef-2.jpg"
-    
+    "chefPicture": "https://i.ibb.co/MZpCgnY/chef-2.jpg",
+    "description": "David Lee is a talented chef with 12 years of experience in the culinary industry. He has created over 250 unique recipes and specializes in Korean, Thai, and Mexican cuisines."
   },
   {
     "id": 4,
@@ -46,8 +48,8 @@
       { "name": "Mediterranean Cuisine", "count": 50 },
       { "name": "Italian Cuisine", "count": 40 }
     ],
-    "chefPicture": "https://i.ibb.co/zPsH0MV/chef-3.jpg"
-   
+    "chefPicture": "https://i.ibb.co/zPsH0MV/chef-3.jpg",
+    "description": "Sara Kim is a talented chef with 8 years of experience in the culinary world. She has created over 150 unique recipes and specializes in Japanese, Mediterranean, and Italian cuisines."
   },
   {
     "id": 5,
@@ -59,8 +61,8 @@
       { "name": "Italian Cuisine", "count": 150 },
       { "name": "Spanish Cuisine", "count": 50 }
     ],
-    "chefPicture": "https://i.ibb.co/TPjJgb6/chef-4.jpg"
-  
+    "chefPicture": "https://i.ibb.co/TPjJgb6/chef-4.jpg",
+    "description": "Mark Johnson is a highly experienced chef with over 20 years of experience"
   },
   {
     "id": 6,
@@ -72,7 +74,7 @@
       { "name": "Italian Cuisine", "count": 150 },
       { "name": "Spanish Cuisine", "count": 50 }
     ],
-    "chefPicture": "https://i.ibb.co/TPjJgb6/chef-4.jpg"
-  
+    "chefPicture": "https://i.ibb.co/TPjJgb6/chef-4.jpg",
+    "description": "Mark Johnson is a highly experienced chef with over 20 years of experience"
   }
 ]

@@ -4,16 +4,13 @@ const port = process.env.PORT || 4000;
 const cors = require('cors');
 
 const datas = require("./data/datas.json");
-const details = require('./data/userdetails.json')
+// const details = require('./data/userdetails.json')
 
 app.use(cors());
 
 app.get('/', (req, res) => {
   res.send('Server Is running!')
 })
-
-
-
 
 // main data loading
 app.get('/datas', (req, res) => {
@@ -23,15 +20,15 @@ app.get('/datas', (req, res) => {
 
 
 // Details data
-app.get("/userdetails", (req, res) =>{
-  res.send(details)
-})
+// app.get("/userdetails", (req, res) =>{
+//   res.send(details)
+// })
 
-app.get("/userdetails/:id", (req, res) => {
-  const id = req.params.id;
-  const seletedProfile = details.find((n) => n.id === id);
-  res.send(seletedProfile)
-})
+// app.get("/userdetails/:id", (req, res) => {
+//   const id = req.params.id;
+//   const seletedProfile = details.find((n) => n.id === id);
+//   res.send(seletedProfile)
+// })
 
 
 app.get('/datas/:id', (req,res)=>{
@@ -44,14 +41,6 @@ app.get('/datas/:id', (req,res)=>{
     res.send(userList);
   }
 })
-
-
-
-
-
-
-
-
 
 
 app.listen(port, () => {
